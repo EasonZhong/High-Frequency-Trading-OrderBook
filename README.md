@@ -5,8 +5,7 @@
 #### Problem Statement
 Given a sequence of messages, construct an in-memory representation of the current state of the order book. An example MessageBook is of the form:
 
-A,100600,S,1,1081
-
+A,100600,S,1,1081→→
 A,100601,B,9,1006
 A,100602,B,30,981
 A,100603,S,10,1056
