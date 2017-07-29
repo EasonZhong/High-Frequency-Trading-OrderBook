@@ -1,0 +1,10 @@
+	Choose from the options below.
+
+	(1) Read a quick guide about using the program.
+	(2) Run the program using predefined sample MessageBooks.
+	(3) Run the program using newly generated random MessageBook.
+	(4) Run the program using external user supplied MessageBook.
+	(5) Read the actual problem statement in detail.
+	(6) Read the detailed documentation of this program (PDF reader needed).
+	(0) Exit the program.
+

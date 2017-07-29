@@ -1,0 +1,44 @@
+		      A Quick Guide to 
+    [Sell/Buy order MessageBook -> OrderBook] program
+——————————————————
+PROBLEM:
+Given a sequence of messages, construct an in-memory representation
+of the current state of the OrderBook. An example MessageBook is :
+
+A,100600,S,1,1081
+A,100601,B,9,1006
+A,100602,B,30,981
+A,100603,S,10,1056
+A,100604,B,10,950
+A,100605,S,2,1031
+A,100606,B,1,1006
+X,100604,B,10,950
+A,100607,S,5,1031
+
+with messages in the format action, orderID, side, quantity, price
+(e.g., A,123,B,9,1006)
+After every message, write the state of order book/
+(best sell price & best buy price).
+——————————————————
+SOLUTION:
+The previous example above would yield the output below:
+
+[1081,S,1][NAN]
+[1081,S,1][1006,B,9]
+[1081,S,1][1006,B,9]
+[1056,S,10][1006,B,9]
+[1056,S,10][1006,B,9]
+[1031,S,2][1006,B,9]
+[1031,S,2][1006,B,9,1]
+[1031,S,2][1006,B,9,1]
+[1031,S,2,5][1006,B,9,1]
+[1031,S,5][1006,B,9,1]
+[1031,S,4][1006,B,9,1]
+——————————————————
+This [Sell/Buy order MessageBook -> OrderBook] program
+can generate the OrderBook, LogBook and InventoryBook
+outputs for any arbitrary MessageBook input.
+
+FOR MORE INFO, GO BACK TO MAIN MENU,
+AND CHOOSE OPTION (5) OR (6)
+

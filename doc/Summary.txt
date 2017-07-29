@@ -1,0 +1,29 @@
+
+	       Program was successfully executed.
+	################################################
+All input and output files are currently in the root directory.
+A summary of the program execution is given below.
+
+	Input file:
+	(1) _MessageBook.txt : Contains input message feed. 
+			       A mix of sell and buy orders.
+
+	Output files:
+	(1) _OrderBook.txt : Contains updated OrderBook entry
+			     after every transaction is done.
+	
+	(2) _LogBook.csv   : Contains Log of every incoming
+			     message, status of OrderBook
+			     before and after the transaction, 
+			     any profit incurred and remarks
+			     in case of any message errors.
+
+	(3) _InventoryBook.csv : Contains a final inventory of
+				 all un-bought sell orders and
+				 un-sold buy orders after all
+				 messages are processed.
+
+	################################################
+
+	OrderBook and LogBook will open now for viewing.
+
