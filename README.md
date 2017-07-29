@@ -1,5 +1,5 @@
 # High-Frequency-Trading-OrderBook
-#### Developed by Sumanta Bose  
+#### Developed by [Sumanta Bose](https://sumantabose.github.io)
 ##### ([sumanta001@e.ntu.edu.sg](mailto:sumanta001@e.ntu.edu.sg))
 ------
 #### Problem Statement
