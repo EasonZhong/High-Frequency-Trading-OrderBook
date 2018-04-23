@@ -55,4 +55,4 @@ Note: g++ is necessary for compiling the C++ source code.
 ------
 #### Afterword
 Thanks for using my [Sell/Buy order MessageBook → OrderBook] program.<br/>
-This program was developed by Sumanta Bose for WTL Capital Pte. Ltd. interview, an algorithmic high frequency trading (HTF) firm in Singapore. Similar problem statements on OrderBook construction is given by mainstream HFT firms like Jump Trading, Flow Traders, etc.
+This program was developed by Sumanta Bose for WTL Capital Pte. Ltd. interview, an algorithmic high frequency trading (HFT) firm in Singapore. Similar problem statements on OrderBook construction is given by mainstream HFT firms like Jump Trading, Flow Traders, etc.
